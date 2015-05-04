@@ -8,9 +8,9 @@ namespace ConnectMe.Hubs
 {
     public class CarControllerHub : Hub
     {
-        public void Hello()
+        public void Car_User()
         {
-            Clients.All.hello();
+            Clients.All.Car_User();
         }
     }
 }
